@@ -7,8 +7,12 @@ import webbrowser
 
 
 def arb_calc():
-    # Create a for loop that goes through each binary market in Polymarket
-    # Web scrapes each event to extract its decimal odds
+    # Create a for loop that goes through every market active in Polymarket 
+
+    # makes sure it's a binary market
+
+    # converts the outcomes prices (odds) into the decimal odds numbers
+    
     # Determine whether there' an arbitrage opportunity
     # If there's an arbitrage opportunity it sends a notification via """ including the profit percentage and market's details
     # If there's no arbitrage opportunity it just keeps running 
@@ -20,8 +24,8 @@ def get_binary_market(url = "https://gamma-api.polymarket.com/markets"):
     return(response.text)
 
 
-
 def calc_arb_percent(outcome_A_decimal, outcome_B_decimal):
+    """Determines whether an arbitrage opportunity exists"""
     #Expects the decimal percentage of the two possible outcomes.
     try: 
         float(outcome_A_decimal, outcome_B_decimal)
@@ -39,4 +43,16 @@ def calc_arb_percent(outcome_A_decimal, outcome_B_decimal):
         elif total_prob >= 100:
             # returns false if there's no arbitrage opportunity and losing percentage
             return True, str("-", float(-(100-total_prob)) + "%")
+        
+
+def price_to_dec_odds(price_numbers):
+    """Outputs the decimal odd number of the inputted outcome price"""
+    decimal_odds_numbers = []
+
+    for price in price_numbers:
+        decimal_odd_number = 1/int(price)
+        decimal_odds_numbers.append(decimal_odd_number)
+    
+    # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
+    return decimal_odds_numbers
         
