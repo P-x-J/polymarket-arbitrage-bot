@@ -1,7 +1,11 @@
 import sys
 import requests
 import webbrowser
+import logging
 
+
+logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w"
+                    format="%(acstime)s - %(levelname)s - %(message)s")
 # Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
 # Identify binary arbitrage operation's variables 
 
@@ -44,6 +48,41 @@ def calc_arb_percent(outcome_A_decimal, outcome_B_decimal):
             # returns false if there's no arbitrage opportunity and losing percentage
             return True, str("-", float(-(100-total_prob)) + "%")
         
+
+def get_market():
+    url global
+    # Export active markets in polymarkets data
+    url = "https://gamma-api.polymarket.com/markets"
+
+    # Use querystrings to list the market with various filtering and sorting options.
+    querystring = {"active":"true", "closed":"false"}
+
+    response = requests.request("GET", url, params=querystring)
+
+    response = response.text
+
+    response_json = json.loads(response)
+
+    # Iterate over the json file and make a list with binary markets with decimal odds
+
+    decoded_events = []
+
+    for event in response_json:
+        try:
+            outcome_price = event.get("outcomePrices")
+            if outcome_price == None:
+                pass
+        except AttributeError:
+            # Only add the events that have outcomeprices listed
+            logging.debug("No outcomePrices listed", exc_info=True)
+            pass
+        else:
+            id = event.get("id")
+            slug = event.get("slug")
+            decoded_events.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
+
+    return decoded_events
+
 
 def price_to_dec_odds(price_numbers):
     """Outputs the decimal odd number of the inputted outcome price"""

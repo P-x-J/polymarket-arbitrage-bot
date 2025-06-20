@@ -1,31 +1,38 @@
 import requests
-
-# Export active markets in polymarkets data
-url = "https://gamma-api.polymarket.com/markets"
-
-querystring = {"active":"true", "closed":"false"}
-
-response = requests.request("GET", url, params=querystring)
-
-events = response.text
-
-# Parse the data to a json file:
+import json
 
 
-# Iterate over the json file and make a list with binary markets with decimal odds
+def get_market():
+    url global
+    # Export active markets in polymarkets data
+    url = "https://gamma-api.polymarket.com/markets"
 
-decoded_events = []
+    # Use querystrings to list the market with various filtering and sorting options.
+    querystring = {"active":"true", "closed":"false"}
 
-for event in events:
-    try:
-        outcome_price = event.get("outcomePrices")
-    except AttributeError:
-        # Only add the events that have outcomeprices listed
-        pass
-    else:
-        id = event.get("id")
-        decoded_events.append({"id": id, "outcomePrices": outcome_price})
+    response = requests.request("GET", url, params=querystring)
 
-# Return the outcomePrices and id values of a market 
+    response = response.text
 
-print(decoded_events)
+    response_json = json.loads(response)
+
+    # Iterate over the json file and make a list with binary markets with decimal odds
+
+    decoded_events = []
+
+    for event in response_json:
+        try:
+            outcome_price = event.get("outcomePrices")
+            if outcome_price == None:
+                pass
+        except AttributeError:
+            # Only add the events that have outcomeprices listed
+            pass
+        else:
+            id = event.get("id")
+            slug = event.get("slug")
+            decoded_events.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
+
+    return decoded_events
+
+
