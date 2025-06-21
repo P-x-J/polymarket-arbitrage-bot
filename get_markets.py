@@ -2,8 +2,7 @@ import requests
 import json
 
 
-def get_market():
-    url global
+def get_markets():
     # Export active markets in polymarkets data
     url = "https://gamma-api.polymarket.com/markets"
 
@@ -34,5 +33,3 @@ def get_market():
             decoded_events.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
 
     return decoded_events
-
-

@@ -6,6 +6,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w"
                     format="%(acstime)s - %(levelname)s - %(message)s")
+
+logger = logging.getLogger(__name__)
 # Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
 # Identify binary arbitrage operation's variables 
 
