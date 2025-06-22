@@ -23,7 +23,17 @@ def arb_calc():
     # If there's an arbitrage opportunity it sends a notification via """ including the profit percentage and market's details
     # If there's no arbitrage opportunity it just keeps running 
     # The bot won't stop until the user manually stops it by pressing CTRL+C
+
+ class MarketsData(self, url:str, markets:list): 
+     # Create a class that extracts that from the market, e
+     def __init__(self, url: str = "https://gamma-api.polymarket.com/markets", markets: list):
+         self.url = url
+         self.markets = markets
+
     
+
+
+          
 
 def get_binary_market(url = "https://gamma-api.polymarket.com/markets"):
     response = requests.request("GET", url)
