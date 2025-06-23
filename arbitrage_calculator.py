@@ -12,7 +12,9 @@ logger = logging.getLogger(__name__)
 # Identify binary arbitrage operation's variables 
 
 
-def arb_calc():
+def main():
+    single_markets_data = MarketsData("https://gamma-api.polymarket.com/markets")
+    single_decoded_markets = single_markets_data.get_markets()
     # Create a for loop that goes through every market active in Polymarket 
 
     # makes sure it's a binary market
@@ -24,20 +26,52 @@ def arb_calc():
     # If there's no arbitrage opportunity it just keeps running 
     # The bot won't stop until the user manually stops it by pressing CTRL+C
 
- class MarketsData(self, url:str, markets:list): 
-     # Create a class that extracts that from the market, e
-     def __init__(self, url: str = "https://gamma-api.polymarket.com/markets", markets: list):
-         self.url = url
-         self.markets = markets
 
+class MarketsData():
+    querystring = {"active":"true", "closed":"false"}
+    # Create a class that extracts that from active markets
+    def __init__(self, gamma_api_data_url: str):
+        self.gamma_api_data_url = gamma_api_data_url
+    
+    def get_markets(self) -> list:
+        # Export active markets in polymarkets data
+
+        # Use querystrings to list the market with various filtering and sorting options.
+        response = requests.request("GET", self.gamma_api_data_url, params=self.querystring)
+        response = response.text
+        response_json = json.loads(response)
+
+        # Iterate over the json file and make a list with binary markets with decimal odds
+
+        decoded_markets = []
+
+        for market in response_json:
+            try:
+                outcome_price = market.get("outcomePrices")
+                if outcome_price == None:
+                    pass
+            except AttributeError:
+                # Only add the events that have outcomeprices listed
+                    pass
+            else:
+                id = market.get("id")
+                slug = market.get("slug")
+                decoded_markets.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
+
+        return decoded_markets
     
 
+    def get_events(self) -> list:
+        response = requests.request("GET", self.gamma_api_data_url, params=self.querystring)
+        response = response.text
+        response_json = json.loads(response)
 
-          
+        decoded_market = []
 
-def get_binary_market(url = "https://gamma-api.polymarket.com/markets"):
-    response = requests.request("GET", url)
-    return(response.text)
+        for event in response_json:
+            # get the list of multi-markets events of the recent events
+
+
 
 
 def calc_arb_percent(outcome_A_decimal, outcome_B_decimal):
@@ -60,40 +94,6 @@ def calc_arb_percent(outcome_A_decimal, outcome_B_decimal):
             # returns false if there's no arbitrage opportunity and losing percentage
             return True, str("-", float(-(100-total_prob)) + "%")
         
-
-def get_market():
-    url global
-    # Export active markets in polymarkets data
-    url = "https://gamma-api.polymarket.com/markets"
-
-    # Use querystrings to list the market with various filtering and sorting options.
-    querystring = {"active":"true", "closed":"false"}
-
-    response = requests.request("GET", url, params=querystring)
-
-    response = response.text
-
-    response_json = json.loads(response)
-
-    # Iterate over the json file and make a list with binary markets with decimal odds
-
-    decoded_events = []
-
-    for event in response_json:
-        try:
-            outcome_price = event.get("outcomePrices")
-            if outcome_price == None:
-                pass
-        except AttributeError:
-            # Only add the events that have outcomeprices listed
-            logging.debug("No outcomePrices listed", exc_info=True)
-            pass
-        else:
-            id = event.get("id")
-            slug = event.get("slug")
-            decoded_events.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
-
-    return decoded_events
 
 
 def price_to_dec_odds(price_numbers):
