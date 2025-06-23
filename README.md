@@ -15,9 +15,26 @@ If you owned both positions, winning the 72c bet would earn you 28c. However, yo
 
 *Credits to explanation: u/areebkhan280*
 
-## How does the bot work?
+## Technical Overview
 
-The bot surfs through Polymarket's web while it's running., identifies any possible binary arbitrage opportunity and notifies the user.
+The bot currently uses Polymarket’s Gamma Markets API, a RESTful service provided by Polymarket. This API serves as a hosted index of all on-chain market data and supplies:
+
+    Resolved and unresolved market outcomes
+
+    Market metadata (e.g., question text, categories, volumes)
+
+    Token pairings and market structures
+
+    Real-time price data for YES/NO or categorical outcomes
+
+By querying this API regularly, the bot identifies pricing discrepancies that signal arbitrage opportunities — for example:
+
+    Binary arbitrage: where YES + NO < $1
+
+    Multi-market arbitrage: where the total of all mutually exclusive YES markets < $1 or > $1
+
+
+Once an arbitrage signal is detected, the bot logs or alerts the user with actionable information (email,logging file...etc)
 
 ## How to get started:
 
