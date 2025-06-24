@@ -44,7 +44,7 @@ class MarketsData():
         # Iterate over the json file and make a list with binary markets with decimal odds
 
         decoded_markets = []
-
+ 
         for market in response_json:
             try:
                 outcome_price = market.get("outcomePrices")
@@ -80,17 +80,29 @@ class MarketsData():
                 decoded_event_markets.append({"id": id, "tid": tid, "slug": slug, "markets": []})
 
                 for market in event.get("markets"):
-                    outcome_price = market.get("outcomePrices")
-                    match = re.search(r"[\"]")
-                    
-                        pass
-                    else:
+                    outcome_prices_str = market.get("outcomePrices")
+                    # The outcomePrices musst be given as a formatted string of two elements, if not pass
+                    match = re.search(r'\[\"([0-9.]+)\", \"([0-9]+)\"\]', outcome_prices_str)
+
+
+                    if match:
+                        outcome_prices = []
+                        outcome_price1 = float(match.group(1))
+                        outcome_price2 = float(match.group(2))
+                        outcome_prices.append(outcome_price1)
+                        outcome_prices.append(outcome_price2)
+                        
+
                         id = market.get("id")
                         slug = market.get("slug")
-                        markets = decoded_event_markets["markets"]
-                        markets.append({"id": id, "outcomePrices": outcome_price, "slug": slug})
+                        # Make a list of markets inside the events dictionnary
+                        decoded_event_markets["markets"].append({"id": id, "outcomePrices": outcome_prices, "slug": slug})
+                    else: 
+                        pass
+            
             else:
                 pass
+
         return decoded_event_markets
 
             
@@ -100,7 +112,7 @@ class Probabilities():
     """
     Manage the prices from the market's outcomes and determine whether an arbitrage opportunity exists
     """
-    def __init__(self, outcome_prices: str):
+    def __init__(self, outcome_prices: list[int]):
         self.outcome_prices = outcome_prices
 
     
