@@ -1,6 +1,5 @@
-import sys
 import requests
-import webbrowser
+import re
 import logging
 import json
 
@@ -82,7 +81,8 @@ class MarketsData():
 
                 for market in event.get("markets"):
                     outcome_price = market.get("outcomePrices")
-                    if outcome_price == None:
+                    match = re.search(r"[\"]")
+                    
                         pass
                     else:
                         id = market.get("id")
@@ -97,44 +97,52 @@ class MarketsData():
                     
 
 class Probabilities():
-    """Manage the prices from the market's outcomes and determine whether an arbitrage opportunity exist"""
-    def __init__():
-        
+    """
+    Manage the prices from the market's outcomes and determine whether an arbitrage opportunity exists
+    """
+    def __init__(self, outcome_prices: str):
+        self.outcome_prices = outcome_prices
 
-def calc_arb_percent(outcome_A_decimal, outcome_B_decimal) -> tuple[bool, str]:
-    """Determines whether an arbitrage opportunity exists"""
-    #Expects the decimal percentage of the two possible outcomes.
-    try: 
-        outcome_A_decimal = float(outcome_A_decimal)
-        outcome_B_decimal = float(outcome_B_decimal)
-    except ValueError:
-        return False, "Invalid input: outcomes must be decimal numbers"
+    
+    def get_outcomes(self, outcome_prices) -> tuple[int, int]:
+        """Use regular expressions to extract the outcome prices from an string"""
+
+
+    def calc_arb_percent(self, outcome_A_decimal, outcome_B_decimal) -> tuple[bool, str]:
+        """Determines whether an arbitrage opportunity exists"""
+
+        # Expects the decimal percentage of the two possible outcomes.
+        try: 
+            outcome_A_decimal = float(outcome_A_decimal)
+            outcome_B_decimal = float(outcome_B_decimal)
+        except ValueError:
+            return False, "Invalid input: outcomes must be decimal numbers"
     
 
-    # Calculate implied probabilites
-    player_A_prob = (1/outcome_A_decimal)*100
-    player_B_prob = (1/outcome_B_decimal)*100
-    total_prob = player_A_prob + player_B_prob
+        # Calculate implied probabilities
+        player_A_prob = (1/outcome_A_decimal)*100
+        player_B_prob = (1/outcome_B_decimal)*100
+        total_prob = player_A_prob + player_B_prob
 
 
-    # If total_prob < 100% then there's an arbitrage opportunity
-    if total_prob < 100:
-        profit = 100 - total_prob
-        return True, f"+{profit:.2f}% arbitrage profit"
-    else:
-        loss = total_prob - 100
-        return True, f"-{loss:.2f} inefficiency"
+        # If total_prob < 100% then there's an arbitrage opportunity
+        if total_prob < 100:
+            profit = 100 - total_prob
+            return True, f"+{profit:.2f}% arbitrage profit"
+        else:
+            loss = total_prob - 100
+            return True, f"-{loss:.2f} inefficiency"
         
 
 
-def price_to_dec_odds(price_numbers) -> list[int]:
-    """Outputs the decimal odd number of the inputted outcome price"""
-    decimal_odds_numbers = []
+    def price_to_dec_odds(self, price_numbers) -> list[int]:
+        """Outputs the decimal odd number of the inputted outcome price"""
+        decimal_odds_numbers = []
 
-    for price in price_numbers:
-        decimal_odd_number = 1/int(price)
-        decimal_odds_numbers.append(decimal_odd_number)
+        for price in price_numbers:
+            decimal_odd_number = 1/int(price)
+            decimal_odds_numbers.append(decimal_odd_number)
     
-    # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
-    return decimal_odds_numbers
+        # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
+        return decimal_odds_numbers
         
