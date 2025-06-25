@@ -4,15 +4,15 @@ import logging
 import json
 
 
-logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
-                    format="%(asctime)s - %(levelname)s - %(message)s")
-
 logger = logging.getLogger(__name__)
 # Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
 # Identify binary arbitrage operation's variables 
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
+                    format="%(asctime)s - %(levelname)s - %(message)s")
+    logger.setLevel("debug")
     single_markets_data = MarketsData("https://gamma-api.polymarket.com/markets")
     single_decoded_markets = single_markets_data.get_markets()
     # Create a for loop that goes through every market active in Polymarket 
