@@ -2,20 +2,65 @@ import requests
 import re
 import logging
 import json
+import time
 
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
+                    format="%(asctime)s - %(levelname)s - %(message)s")
+logger.setLevel(logging.DEBUG)
 # Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
 # Identify binary arbitrage operation's variables 
 
 
 def main():
-    logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
-                    format="%(asctime)s - %(levelname)s - %(message)s")
-    logger.setLevel("debug")
+    # Make an infinite loop that keeps pulling and searching data for arbitrage opportunities given a countdown or until client presses CTRL+C
     single_markets_data = MarketsData("https://gamma-api.polymarket.com/markets")
-    single_decoded_markets = single_markets_data.get_markets()
-    # Create a for loop that goes through every market active in Polymarket 
+    events_data = MarketsData("https://gamma-api.polymarket.com/events")
+    
+    while True:
+        try:
+            single_decoded_markets = single_markets_data.get_markets()
+            events_decoded = events_data.get_events()
+
+            for market in single_decoded_markets:
+                outcome_prices = market["outcomePrices"]
+                prob = Probabilities(outcome_prices)
+                if prob.check_outcome_prices():
+                    decimal_odds = prob.price_to_dec_odds(outcome_prices)
+                    opportunity, percentage = prob.calc_arb_percent(decimal_odds)
+                    if opportunity == True:
+                        print(percentage + f"in single market id = {market["id"]}")
+                    else:
+                        pass
+            
+                else:
+                    pass
+            
+
+            for event in events_decoded:
+                markets = event["markets"]
+                for market in markets:
+                    outcome_prices = market["outcomePrices"]
+                    prob = Probabilities(outcome_prices)
+                    if prob.check_outcome_prices():
+                        decimal_odds = prob.price_to_dec_odds(outcome_prices)
+                        opportunity, percentage = prob.calc_arb_percent(decimal_odds)
+                        if opportunity == True:
+                            print(percentage + f"in single market id = {market["id"]} in event {event["tid"], event["slug"]}")
+                        else:
+                            pass
+
+
+                    else:
+                        pass
+        except KeyboardInterrupt:
+            break
+
+
+            
+        except KeyboardInterrupt:
+            break
 
     # makes sure it's a binary market
 
@@ -183,3 +228,5 @@ class Probabilities():
         # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
         return decimal_odds_numbers
         
+if __name__ == '__main__':
+    main()
