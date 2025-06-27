@@ -57,11 +57,6 @@ def main():
         except KeyboardInterrupt:
             break
 
-
-            
-        except KeyboardInterrupt:
-            break
-
     # makes sure it's a binary market
 
     # converts the outcomes prices (odds) into the decimal odds numbers
