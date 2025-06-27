@@ -92,11 +92,7 @@ class MarketsData():
             
             if match:
                 logging.debug("Found outcomePrices")
-                outcome_prices = []
-                outcome_price1 = float(match.group(1))
-                outcome_price2 = float(match.group(2))
-                outcome_prices.append(outcome_price1)
-                outcome_prices.append(outcome_price2)
+                outcome_prices = [float(match.group(1)), float(match.group(2))]
 
 
                 id = market.get("id")
@@ -122,12 +118,17 @@ class MarketsData():
             if len(event["markets"])>= 1:
                 logging.debug("Found an event with at least 1 market")
 
-                id = event.get("id")
+                event_id = event.get("id")
                 event_slug = event.get("slug")
-                for tag in event.get("tags"):
-                    tid = tag.get("id")
+                tags = event.get("tags")
+                for tag in tags:
+                    if tag == "tid":
+                        tags.ge
 
-                decoded_event_markets.append({"id": id, "tid": tid, "slug": event_slug, "markets": []})
+
+        
+
+                decoded_event_markets.append({"id": event_id, "tid": tid, "slug": event_slug, "markets": []})
 
                 for market in event.get("markets"):
                     outcome_prices_str = market.get("outcomePrices")
@@ -137,17 +138,14 @@ class MarketsData():
 
                     if match:
                         logging.debug("Found outcomePrices")
-                        outcome_prices = []
-                        outcome_price1 = float(match.group(1))
-                        outcome_price2 = float(match.group(2))
-                        outcome_prices.append(outcome_price1)
-                        outcome_prices.append(outcome_price2)
+                        outcome_prices = [float(match.group(1)), float(match.group(2))]
                         
 
-                        id = market.get("id")
+                        market_id = market.get("id")
                         slug = market.get("slug")
                         # Make a list of markets inside the events dictionnary
-                        decoded_event_markets["markets"].append({"id": id, "outcomePrices": outcome_prices, "slug": slug})
+
+                        decoded_event_markets[-1]["markets"].append({"id": market_id, "outcomePrices": outcome_prices, "slug": slug})
                     else: 
                         logging.debug("Didn't find outcomePrices")
                         pass
