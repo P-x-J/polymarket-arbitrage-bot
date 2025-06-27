@@ -86,8 +86,9 @@ class MarketsData():
         decoded_markets = []
  
         for market in response_json:
-            outcome_prices_str = market.get("outcomePrices")
-            match = re.search(r'\[\"([0-9.]+)\", \"([0-9]+)\"\]', outcome_prices_str)
+            outcome_prices = market.get("outcomePrices")
+            outcome_prices_str = str(outcome_prices)
+            match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str.strip())
             
             if match:
                 logging.debug("Found outcomePrices")
@@ -126,12 +127,12 @@ class MarketsData():
                 for tag in event.get("tags"):
                     tid = tag.get("id")
 
-                decoded_event_markets.append({"id": id, "tid": tid, "slug": slug, "markets": []})
+                decoded_event_markets.append({"id": id, "tid": tid, "slug": event_slug, "markets": []})
 
                 for market in event.get("markets"):
                     outcome_prices_str = market.get("outcomePrices")
                     # The outcomePrices musst be given as a formatted string of two elements, if not pass
-                    match = re.search(r'\[\"([0-9.]+)\", \"([0-9]+)\"\]', outcome_prices_str)
+                    match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str)
 
 
                     if match:
