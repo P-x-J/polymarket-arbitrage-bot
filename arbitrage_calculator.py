@@ -28,7 +28,7 @@ def main():
                 prob = Probabilities(outcome_prices)
                 if prob.check_outcome_prices():
                     decimal_odds = prob.price_to_dec_odds(outcome_prices)
-                    opportunity, percentage = prob.calc_arb_percent(decimal_odds)
+                    opportunity, percentage = prob.calc_arb_percent()
                     if opportunity == True:
                         print(percentage + f"in single market id = {market["id"]}")
                     else:
@@ -122,16 +122,16 @@ class MarketsData():
                 event_slug = event.get("slug")
                 tags = event.get("tags")
                 for tag in tags:
-                    if tag == "tid":
-                        tags.ge
+                    event_tid = tag.get("id")
 
-
-        
-
-                decoded_event_markets.append({"id": event_id, "tid": tid, "slug": event_slug, "markets": []})
 
                 for market in event.get("markets"):
-                    outcome_prices_str = market.get("outcomePrices")
+        
+                    multi_markets = []
+
+                    outcome_prices = market.get("outcomePrices")
+                    outcome_prices_str = str(outcome_prices)
+
                     # The outcomePrices musst be given as a formatted string of two elements, if not pass
                     match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str)
 
@@ -145,10 +145,11 @@ class MarketsData():
                         slug = market.get("slug")
                         # Make a list of markets inside the events dictionnary
 
-                        decoded_event_markets[-1]["markets"].append({"id": market_id, "outcomePrices": outcome_prices, "slug": slug})
+                        multi_markets.append({"id": market_id, "outcomePrices": outcome_prices, "slug": slug})
                     else: 
                         logging.debug("Didn't find outcomePrices")
                         pass
+                decoded_event_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
             
             else:
                 logging.debug("Event with no markets")
@@ -176,13 +177,13 @@ class Probabilities():
             return False
 
 
-    def calc_arb_percent(self) -> tuple[bool, str]:
+    def calc_arb_percent(outcome_prices: list[int]) -> tuple[bool, str]:
         """Determines whether an arbitrage opportunity exists"""
 
         # Expects the decimal percentage of the two possible outcomes.
         try: 
-            outcome_A_decimal = float(self.outcome_prices[0])
-            outcome_B_decimal = float(self.outcome_prices[1])
+            outcome_A_decimal = float(outcome_prices[0])
+            outcome_B_decimal = float(outcome_prices[1])
         except ValueError:
             logging.debug("The outcomes A & B aren't given as floats")
             return False, "Invalid input: outcomes must be decimal numbers"
