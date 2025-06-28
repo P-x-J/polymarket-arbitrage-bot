@@ -1,20 +1,2617 @@
-2025-06-28 14:33:01,305 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,305 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,305 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,305 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,305 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,306 - INFO - Append market to decoded_markets
-2025-06-28 14:33:01,368 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,422 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,456 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,459 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,459 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,459 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,459 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,459 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,459 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,459 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,460 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,460 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,461 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,461 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,461 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,461 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,461 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,461 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,462 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,506 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,511 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,511 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,511 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,511 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,511 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,511 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,511 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,511 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,512 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,512 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,513 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,513 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,514 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,514 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,515 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,515 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,515 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,515 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,515 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,515 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,515 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,515 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,515 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,515 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,515 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,515 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,515 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,516 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,516 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,516 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,516 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,516 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,516 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,516 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,516 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,516 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,516 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,516 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,516 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,516 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,516 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,516 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,516 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,517 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,517 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,517 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,517 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,517 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,517 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,517 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,517 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,517 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,517 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,517 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,517 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,517 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,517 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,517 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,517 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,518 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,518 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,518 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,518 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,518 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,518 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,518 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,518 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,518 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,518 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,518 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,518 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,518 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,518 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,518 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,518 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,519 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,519 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,519 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,519 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,519 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,519 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,519 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,519 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,519 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,519 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,519 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,519 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,519 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,519 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,519 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,519 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,520 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,520 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,520 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,520 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,520 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,520 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,520 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,520 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,520 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,520 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,520 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,520 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,520 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,520 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,521 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,521 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,521 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,521 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,521 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,521 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,521 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,521 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,521 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,521 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,521 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,521 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,521 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,521 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,522 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,522 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,522 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,522 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,522 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,522 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,522 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,522 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,522 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,522 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,522 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,522 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,522 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,522 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,523 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,523 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,523 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,523 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,523 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,523 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,523 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,523 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,523 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,523 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,523 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,523 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,523 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,523 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,523 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,524 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,524 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,524 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,524 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,524 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,524 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,524 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,524 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,524 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,524 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,524 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,524 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,524 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,524 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,524 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,525 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,525 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,525 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,525 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,525 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,525 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,525 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,525 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,525 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,525 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,525 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,525 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,525 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,525 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,526 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,526 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,526 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,526 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,526 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,526 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,526 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,526 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,526 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,526 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,526 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,526 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,526 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,526 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,527 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,527 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,527 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,527 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,527 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,527 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,527 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,527 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,528 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,595 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,597 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,598 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,598 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,599 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,599 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,600 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,600 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,600 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,600 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,600 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,647 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,651 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,651 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,652 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,652 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,653 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,653 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,654 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,654 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,654 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,654 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,655 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,655 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,655 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,655 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,655 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,655 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,655 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,655 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,655 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,655 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,655 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,655 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,655 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,655 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,655 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,655 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,655 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,656 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,656 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,656 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,656 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,656 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,656 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,656 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,656 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,656 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,656 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,656 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,656 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,656 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,656 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,656 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,657 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,657 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,657 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,657 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,657 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,657 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,657 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,657 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,657 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,657 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,657 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,657 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,657 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,657 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,657 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,657 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,657 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,658 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,658 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,658 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,658 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,658 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,658 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,658 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,658 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,658 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,658 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,658 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,658 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,658 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,658 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,658 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,658 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,659 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,659 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,659 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,659 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,659 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,659 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,659 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,659 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,659 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,659 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,659 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,659 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,659 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,659 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,659 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,659 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,660 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,660 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,660 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,660 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,660 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,660 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,660 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,660 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,660 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,660 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,660 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,660 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,660 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,660 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,660 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,661 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,661 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,661 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,661 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,661 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,661 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,661 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,661 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,661 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,661 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,661 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,661 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,661 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,661 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,662 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,662 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,662 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,662 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,662 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,662 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,662 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,662 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,662 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,662 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,662 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,662 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,663 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,663 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,663 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,663 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,663 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,663 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,663 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,663 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,663 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,663 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,663 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,663 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,663 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,663 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,664 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,664 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,664 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,664 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,664 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,664 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,664 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,664 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,664 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,664 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,664 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,664 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,664 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,664 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,664 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,665 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,665 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,665 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,665 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,665 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,665 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,665 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,665 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,665 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,665 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,665 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,665 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,665 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,665 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,666 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,666 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,666 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,666 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,666 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,666 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,666 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,666 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,666 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,666 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,666 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,666 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,666 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,666 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,666 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,667 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,667 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,667 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,702 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,707 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,708 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,708 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,709 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,709 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,710 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,710 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,710 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,710 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,710 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,710 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,710 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,759 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,764 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,764 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,764 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,764 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,764 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,764 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,764 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,764 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,764 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,764 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,765 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,765 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,766 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,766 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,767 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,767 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,768 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,768 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,768 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,768 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,768 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,768 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,768 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,768 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,768 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,768 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,768 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,768 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,768 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,768 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,768 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,768 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,769 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,769 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,769 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,769 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,769 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,769 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,769 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,769 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,769 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,769 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,769 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,769 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,769 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,769 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,769 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,769 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,770 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,770 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,770 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,770 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,770 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,770 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,770 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,770 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,770 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,770 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,770 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,770 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,770 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,770 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,770 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,771 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,771 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,771 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,771 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,771 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,771 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,771 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,771 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,771 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,771 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,771 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,771 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,771 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,771 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,771 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,772 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,772 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,772 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,772 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,772 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,772 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,772 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,772 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,772 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,772 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,772 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,772 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,772 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,772 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,773 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,773 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,773 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,773 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,773 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,773 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,773 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,773 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,773 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,773 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,773 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,773 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,773 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,774 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,774 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,774 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,774 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,774 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,774 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,774 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,774 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,774 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,774 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,774 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,774 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,774 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,775 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,775 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,775 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,775 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,775 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,775 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,775 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,775 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,775 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,775 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,775 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,775 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,775 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,775 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,776 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,776 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,776 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,776 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,776 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,776 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,776 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,776 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,776 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,776 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,776 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,776 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,776 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,776 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,776 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,777 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,777 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,777 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,777 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,777 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,777 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,777 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,777 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,777 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,777 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,777 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,777 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,777 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,777 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,777 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,778 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,778 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,778 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,778 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,778 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,778 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,778 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,778 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,778 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,778 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,778 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,778 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,778 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,778 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,779 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,779 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,779 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,779 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,779 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,779 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,779 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,779 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,779 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,779 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,779 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,779 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,779 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,779 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,780 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,780 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,780 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,780 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,780 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,780 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,780 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,780 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,780 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,780 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,781 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,814 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,817 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,817 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,817 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,818 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,818 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,819 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,819 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,819 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,895 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,898 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,898 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,898 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,899 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,899 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,900 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,900 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,901 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,901 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,902 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:54,902 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,902 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,902 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,903 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,903 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,903 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,903 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,903 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,903 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,903 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,903 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,903 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,903 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,903 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,903 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,903 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,903 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,903 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,903 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,904 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,904 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,904 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,904 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,904 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,904 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,904 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,904 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,904 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,904 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,904 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,904 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,904 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,904 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,904 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,905 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,905 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,905 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,905 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,905 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,905 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,905 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,905 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,905 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,905 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,905 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,905 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,905 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,905 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,905 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,905 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,905 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,906 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,906 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,906 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,906 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,906 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,906 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,906 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,906 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,906 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,906 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,906 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,906 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,906 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,906 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,906 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,906 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,907 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,907 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,907 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,907 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,907 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,907 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,907 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,907 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,907 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,907 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,907 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,907 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,907 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,907 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,907 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,907 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,908 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,908 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,908 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,908 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,908 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,908 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,908 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,908 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,908 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,908 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,908 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,908 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,908 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,908 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:54,909 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,909 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,909 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,909 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,909 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,909 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,909 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,909 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,909 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,909 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,909 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,909 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,909 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,909 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,909 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,910 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,910 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,910 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,910 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,910 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,910 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,910 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,910 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,910 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,910 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,910 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,910 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,910 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,910 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,911 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,911 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,911 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,911 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,911 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,911 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,911 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,911 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,911 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,911 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,911 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,911 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,911 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,911 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,912 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,912 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,912 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,912 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,912 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,912 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,912 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,912 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,912 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,912 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,912 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,912 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,912 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,912 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,912 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,913 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,913 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,913 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,913 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,913 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,913 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,913 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,913 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,913 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,913 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,913 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,913 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,913 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,913 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,914 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,914 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,914 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,914 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,914 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,914 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,914 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,914 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,914 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,914 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,914 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,914 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,914 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:54,914 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:54,915 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:54,915 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:54,915 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:54,947 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:54,952 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,952 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,952 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,953 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,953 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,954 - DEBUG - Found outcomePrices
+2025-06-28 15:10:54,954 - INFO - Append market to decoded_markets
+2025-06-28 15:10:54,954 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,114 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,119 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,119 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,119 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,119 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,119 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,119 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,119 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,119 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,119 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,120 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,120 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,121 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,121 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,121 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,122 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,122 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,123 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,123 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,123 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,123 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,123 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,123 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,123 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,123 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,123 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,123 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,123 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,123 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,123 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,124 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,124 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,124 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,124 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,124 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,124 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,124 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,124 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,124 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,124 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,124 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,124 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,124 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,124 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,124 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,124 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,124 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,125 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,125 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,125 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,125 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,125 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,125 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,125 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,125 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,125 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,125 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,125 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,125 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,125 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,125 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,125 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,125 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,125 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,126 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,126 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,126 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,126 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,126 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,126 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,126 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,126 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,126 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,126 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,126 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,126 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,126 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,126 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,126 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,127 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,127 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,127 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,127 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,127 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,127 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,127 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,127 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,127 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,127 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,127 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,127 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,127 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,127 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,127 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,127 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,128 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,128 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,128 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,128 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,128 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,128 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,128 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,128 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,128 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,128 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,128 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,128 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,128 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,128 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,128 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,129 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,129 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,129 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,129 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,129 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,129 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,129 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,129 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,129 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,129 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,129 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,129 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,129 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,129 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,130 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,130 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,130 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,130 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,130 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,130 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,130 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,130 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,130 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,130 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,130 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,130 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,130 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,131 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,131 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,131 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,131 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,131 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,131 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,131 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,131 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,131 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,131 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,131 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,131 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,131 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,131 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,131 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,132 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,132 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,132 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,132 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,132 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,132 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,132 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,132 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,132 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,132 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,132 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,132 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,132 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,132 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,133 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,133 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,133 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,133 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,133 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,133 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,133 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,133 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,133 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,133 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,133 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,133 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,133 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,133 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,133 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,134 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,134 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,134 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,134 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,134 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,134 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,134 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,134 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,134 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,134 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,134 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,134 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,134 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,134 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,135 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,135 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,135 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,135 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,135 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,135 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,136 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,172 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,174 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,174 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,174 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,174 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,175 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,175 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,176 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,176 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,177 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,177 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,177 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,177 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,220 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,224 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,224 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,224 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,224 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,224 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,224 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,224 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,225 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,225 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,226 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,226 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,226 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,226 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,227 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,228 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,228 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,228 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,228 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,228 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,228 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,228 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,228 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,228 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,228 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,228 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,228 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,228 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,228 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,229 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,229 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,229 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,229 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,229 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,229 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,229 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,229 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,229 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,229 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,229 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,229 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,229 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,229 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,229 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,229 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,230 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,230 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,230 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,230 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,230 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,230 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,230 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,230 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,230 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,230 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,230 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,230 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,230 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,230 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,230 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,231 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,231 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,231 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,231 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,231 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,231 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,231 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,231 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,231 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,231 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,231 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,231 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,231 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,231 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,231 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,231 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,232 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,232 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,232 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,232 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,232 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,232 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,232 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,232 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,232 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,232 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,232 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,232 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,232 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,232 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,232 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,232 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,232 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,233 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,233 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,233 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,233 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,233 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,233 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,233 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,233 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,233 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,233 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,233 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,233 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,233 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,233 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,234 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,234 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,234 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,234 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,234 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,234 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,234 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,234 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,234 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,234 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,234 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,234 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,234 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,234 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,235 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,235 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,235 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,235 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,235 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,235 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,235 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,235 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,235 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,235 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,235 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,235 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,235 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,235 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,236 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,236 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,236 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,236 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,236 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,236 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,236 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,236 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,236 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,236 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,236 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,236 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,236 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,236 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,236 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,237 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,237 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,237 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,237 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,237 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,237 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,237 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,237 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,237 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,237 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,237 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,237 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,237 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,237 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,238 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,238 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,238 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,238 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,238 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,238 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,238 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,238 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,238 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,238 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,238 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,238 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,238 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,238 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,238 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,239 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,239 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,239 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,239 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,239 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,239 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,239 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,239 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,239 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,239 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,239 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,239 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,239 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,239 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,240 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,240 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,240 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,240 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,240 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,240 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,240 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,240 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,240 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,240 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,241 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,274 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,277 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,277 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,277 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,278 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,278 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,279 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,279 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,279 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,383 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,386 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,386 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,387 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,387 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,388 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,388 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,389 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,390 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,390 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,390 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,390 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,390 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,390 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,390 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,390 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,390 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,390 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,390 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,390 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,390 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,391 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,391 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,391 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,391 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,391 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,391 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,391 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,391 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,391 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,391 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,391 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,391 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,391 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,391 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,391 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,391 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,392 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,392 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,392 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,392 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,392 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,392 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,392 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,392 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,392 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,392 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,392 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,392 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,392 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,392 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,392 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,392 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,393 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,393 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,393 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,393 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,393 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,393 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,393 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,393 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,393 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,393 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,393 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,393 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,393 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,393 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,393 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,393 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,394 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,394 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,394 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,394 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,394 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,394 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,394 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,394 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,394 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,394 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,394 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,394 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,394 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,394 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,394 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,394 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,395 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,395 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,395 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,395 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,395 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,395 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,395 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,395 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,395 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,395 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,395 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,395 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,395 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,396 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,396 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,396 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,396 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,396 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,396 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,396 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,396 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,396 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,396 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,396 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,396 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,396 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,396 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,397 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,397 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,397 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,397 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,397 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,397 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,397 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,397 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,397 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,397 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,397 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,397 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,397 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,397 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,397 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,398 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,398 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,398 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,398 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,398 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,398 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,398 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,398 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,398 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,398 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,398 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,398 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,398 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,398 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,399 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,399 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,399 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,399 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,399 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,399 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,399 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,399 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,399 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,399 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,399 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,399 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,399 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,399 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,399 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,400 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,400 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,400 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,400 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,400 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,400 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,400 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,400 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,400 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,400 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,400 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,400 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,400 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,400 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,401 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,401 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,401 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,401 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,401 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,401 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,401 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,401 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,401 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,401 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,401 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,401 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,401 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,401 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,401 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,401 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,402 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,402 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,402 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,402 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,402 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,402 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,402 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,402 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,402 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,402 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,403 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,439 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,441 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,442 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,442 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,443 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,443 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,444 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,444 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,444 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,444 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,444 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,444 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,494 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,496 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,496 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,497 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,497 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,498 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,498 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,499 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,499 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,500 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,500 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,500 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,500 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,500 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,500 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,500 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,500 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,501 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,501 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,501 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,501 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,501 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,501 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,501 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,501 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,501 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,501 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,501 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,501 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,501 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,501 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,501 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,501 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,502 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,502 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,502 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,502 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,502 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,502 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,502 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,502 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,502 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,502 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,502 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,502 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,502 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,502 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,502 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,502 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,503 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,503 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,503 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,503 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,503 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,503 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,503 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,503 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,503 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,503 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,503 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,503 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,503 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,503 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,503 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,503 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,504 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,504 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,504 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,504 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,504 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,504 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,504 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,504 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,504 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,504 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,504 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,504 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,504 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,504 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,504 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,505 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,505 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,505 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,505 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,505 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,505 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,505 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,505 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,505 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,505 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,505 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,505 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,505 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,505 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,505 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,506 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,506 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,506 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,506 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,506 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,506 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,506 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,506 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,506 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,506 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,506 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,506 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,506 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,506 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,507 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,507 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,507 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,507 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,507 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,507 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,507 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,507 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,507 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,507 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,507 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,507 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,507 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,508 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,508 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,508 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,508 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,508 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,508 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,508 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,508 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,508 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,508 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,508 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,508 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,508 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,508 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,509 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,509 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,509 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,509 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,509 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,509 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,509 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,509 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,509 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,509 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,509 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,509 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,509 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,510 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,510 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,510 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,510 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,510 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,510 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,510 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,510 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,510 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,510 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,510 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,510 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,510 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,510 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,511 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,511 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,511 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,511 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,511 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,511 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,511 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,511 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,511 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,511 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,511 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,511 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,511 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,511 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,512 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,512 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,512 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,512 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,512 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,512 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,512 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,512 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,512 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,512 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,512 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,512 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,512 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,512 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,513 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,513 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,513 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,513 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,513 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,548 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,550 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,550 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,550 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,550 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,551 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,551 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,552 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,552 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,553 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,553 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,553 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,610 - DEBUG - https://gamma-api.polymarket.com:443 "GET /events?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,615 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,615 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,616 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,616 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,617 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,617 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,618 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - Found an event with at least 1 market
+2025-06-28 15:10:55,618 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,618 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,618 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,618 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,618 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,618 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,619 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,619 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,619 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,619 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,619 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,619 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,619 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,619 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,619 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,619 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,619 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,619 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,619 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,619 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,619 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,619 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,620 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,620 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,620 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,620 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,620 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,620 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,620 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,620 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,620 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,620 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,620 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,620 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,620 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,620 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,620 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,620 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,620 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,621 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,621 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,621 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,621 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,621 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,621 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,621 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,621 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,621 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,621 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,621 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,621 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,621 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,621 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,621 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,621 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,621 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,622 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,622 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,622 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,622 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,622 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,622 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,622 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,622 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,622 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,622 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,622 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,622 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,622 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,622 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,622 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,622 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,623 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,623 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,623 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,623 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,623 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,623 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,623 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,623 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,623 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,623 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,623 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,623 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,623 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,623 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,623 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,624 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,624 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,624 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,624 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,624 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,624 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,624 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,624 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,624 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,624 - INFO - 100.00% arbitrage percentage
+2025-06-28 15:10:55,624 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,624 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,624 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,624 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,625 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,625 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,625 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,625 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,625 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,625 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,625 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,625 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,625 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,625 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,625 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,625 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,625 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,625 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,626 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,626 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,626 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,626 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,626 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,626 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,626 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,626 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,626 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,626 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,626 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,626 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,626 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,626 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,627 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,627 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,627 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,627 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,627 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,627 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,627 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,627 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,627 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,627 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,627 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,627 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,627 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,627 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,627 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,628 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,628 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,628 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,628 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,628 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,628 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,628 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,628 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,628 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,628 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,628 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,628 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,628 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,628 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,628 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,629 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,629 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,629 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,629 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,629 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,629 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,629 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,629 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,629 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,629 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,629 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,629 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,629 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,629 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,630 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,630 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,630 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,630 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,630 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,630 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,630 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,630 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,630 - DEBUG - outcome_prices is a two-elements list
+2025-06-28 15:10:55,630 - INFO - Returned decimal odd numbers
+2025-06-28 15:10:55,630 - INFO - Calculated the implied probabilities
+2025-06-28 15:10:55,630 - INFO - No arbitrage opportunity: 100.00
+2025-06-28 15:10:55,631 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,674 - DEBUG - https://gamma-api.polymarket.com:443 "GET /markets?active=true&closed=false HTTP/1.1" 200 None
+2025-06-28 15:10:55,677 - DEBUG - Didn't find outcomePrices
+2025-06-28 15:10:55,677 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,677 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,677 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,677 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,677 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,677 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,677 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,677 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,677 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,678 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,678 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,679 - DEBUG - Found outcomePrices
+2025-06-28 15:10:55,679 - INFO - Append market to decoded_markets
+2025-06-28 15:10:55,680 - DEBUG - Starting new HTTPS connection (1): gamma-api.polymarket.com:443
+2025-06-28 15:10:55,723 - DEBUG - Pressed CTRL+C
