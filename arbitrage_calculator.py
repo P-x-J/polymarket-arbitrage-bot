@@ -6,9 +6,9 @@ import time
 
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
+logging.basicConfig(level=logging.DEBUG, filename="log.log", filemode="w",
                     format="%(asctime)s - %(levelname)s - %(message)s")
-logger.setLevel(logging.DEBUG)
+
 # Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
 # Identify binary arbitrage operation's variables 
 
@@ -27,8 +27,8 @@ def main():
                 outcome_prices = market["outcomePrices"]
                 prob = Probabilities(outcome_prices)
                 if prob.check_outcome_prices():
-                    decimal_odds = prob.price_to_dec_odds(outcome_prices)
-                    opportunity, percentage = prob.calc_arb_percent()
+                    decimal_odds = prob.price_to_dec_odds()
+                    opportunity, percentage = prob.calc_arb_percent(decimal_odds)
                     if opportunity == True:
                         print(percentage + f"in single market id = {market["id"]}")
                     else:
@@ -44,8 +44,10 @@ def main():
                     outcome_prices = market["outcomePrices"]
                     prob = Probabilities(outcome_prices)
                     if prob.check_outcome_prices():
-                        decimal_odds = prob.price_to_dec_odds(outcome_prices)
+                        decimal_odds = prob.price_to_dec_odds()
+                        print(f"decimal odds: {decimal_odds}")
                         opportunity, percentage = prob.calc_arb_percent(decimal_odds)
+
                         if opportunity == True:
                             print(percentage + f"in single market id = {market["id"]} in event {event["tid"], event["slug"]}")
                         else:
@@ -55,6 +57,7 @@ def main():
                     else:
                         pass
         except KeyboardInterrupt:
+            logging.debug("Pressed CTRL+C")
             break
 
     # makes sure it's a binary market
@@ -125,9 +128,9 @@ class MarketsData():
                     event_tid = tag.get("id")
 
 
-                for market in event.get("markets"):
-        
-                    multi_markets = []
+                multi_markets = []
+
+                for market in event.get("markets"):    
 
                     outcome_prices = market.get("outcomePrices")
                     outcome_prices_str = str(outcome_prices)
@@ -177,7 +180,7 @@ class Probabilities():
             return False
 
 
-    def calc_arb_percent(outcome_prices: list[int]) -> tuple[bool, str]:
+    def calc_arb_percent(self, outcome_prices: list[int]) -> tuple[bool, str]:
         """Determines whether an arbitrage opportunity exists"""
 
         # Expects the decimal percentage of the two possible outcomes.
@@ -199,23 +202,21 @@ class Probabilities():
 
         # If total_prob < 100% then there's an arbitrage opportunity
         if total_prob < 100:
-            profit = 100 - total_prob
-            logging.info(f"We're winning +{profit:.2f}")
-            return True, f"+{profit:.2f}% arbitrage profit"
+            logging.info(f"{total_prob:.2f}% arbitrage percentage")
+            return True, f"+{total_prob:.2f}% arbitrage percentage"
 
         else:
-            loss = total_prob - 100
-            logging.info(f"We're lossing -{loss:.2f}")
-            return True, f"-{loss:.2f} inefficiency"
+            logging.info(f"No arbitrage opportunity: {total_prob:.2f}")
+            return True, f"No arbitrage opportunity: {total_prob:.2f}%"
             
 
 
 
-    def price_to_dec_odds(self, price_numbers: list[float]) -> list[int]:
+    def price_to_dec_odds(self) -> list[int]:
         """Outputs the decimal odd number of the inputted outcome price"""
         decimal_odds_numbers = []
 
-        for price in price_numbers:
+        for price in self.outcome_prices:
             decimal_odd_number = 1/float(price)
             decimal_odds_numbers.append(decimal_odd_number)
         logging.info("Returned decimal odd numbers")
