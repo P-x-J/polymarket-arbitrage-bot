@@ -9,12 +9,8 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG, filename="log.log", filemode="w",
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Build a function that takes operation's values and determines whether there's an arbitrage opportunity withing these values.
-# Identify binary arbitrage operation's variables 
-
 
 def main():
-    # Make an infinite loop that keeps pulling and searching data for arbitrage opportunities given a countdown or until client presses CTRL+C
     single_markets_data = MarketsData("https://gamma-api.polymarket.com/markets")
     events_data = MarketsData("https://gamma-api.polymarket.com/events")
     
@@ -59,8 +55,6 @@ def main():
         except KeyboardInterrupt:
             logging.debug("Pressed CTRL+C")
             break
-
-    # makes sure it's a binary market
 
     # converts the outcomes prices (odds) into the decimal odds numbers
     
@@ -170,7 +164,7 @@ class Probabilities():
     def __init__(self, outcome_prices: list[int]):
         self.outcome_prices = outcome_prices
 
-    def check_outcome_prices(self) -> bool:
+    def count_outcome_prices(self) -> bool:
         """Check that there are only two prices"""
         if len(self.outcome_prices) == 2:
             logging.debug("outcome_prices is a two-elements list")
@@ -180,49 +174,43 @@ class Probabilities():
             return False
 
 
-    def calc_arb_percent(self, outcome_prices: list[int]) -> tuple[bool, str]:
-        """Determines whether an arbitrage opportunity exists"""
-
-        # Expects the decimal percentage of the two possible outcomes.
-        try: 
-            outcome_A_decimal = float(outcome_prices[0])
-            outcome_B_decimal = float(outcome_prices[1])
-        except ValueError:
-            logging.debug("The outcomes A & B aren't given as floats")
-            return False, "Invalid input: outcomes must be decimal numbers"
-
-    
-
-        # Calculate implied probabilities
-        player_A_prob = (1/outcome_A_decimal)*100
-        player_B_prob = (1/outcome_B_decimal)*100
-        total_prob = player_A_prob + player_B_prob
-        logging.info("Calculated the implied probabilities")
-
-
-        # If total_prob < 100% then there's an arbitrage opportunity
-        if total_prob < 100:
-            logging.info(f"{total_prob:.2f}% arbitrage percentage")
-            return True, f"+{total_prob:.2f}% arbitrage percentage"
-
-        else:
-            logging.info(f"No arbitrage opportunity: {total_prob:.2f}")
-            return True, f"No arbitrage opportunity: {total_prob:.2f}%"
-            
-
-
-
-    def price_to_dec_odds(self) -> list[int]:
+    def convert_to_decimal(self) -> list[float]:
         """Outputs the decimal odd number of the inputted outcome price"""
         decimal_odds_numbers = []
 
         for price in self.outcome_prices:
             decimal_odd_number = 1/float(price)
-            decimal_odds_numbers.append(decimal_odd_number)
+            decimal_odds_numbers.append(float(decimal_odd_number))
         logging.info("Returned decimal odd numbers")
     
         # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
         return decimal_odds_numbers
+    
+
+    def set_minimum_price_gap() -> float:
+        minimum_price_gap = input('Set minimum price gap number: ')
+        return float(minimum_price_gap)
+
+
+
+    def calculate_probability(self, outcome_odds_decimals: list[float]) -> float:
+        decimals = [(1/decimal)*100 for decimal in outcome_odds_decimals]
+        return sum(decimals)
+            
+            
+
+    def detect_arbitrage_opportunity(self, probability: float, minimum_price_gap: float) -> tuple[bool, str]:
+        """Determines whether an arbitrage opportunity exists"""
+
+        if probability < 100 - minimum_price_gap:
+            logging.info(f"{probability:.2f}% arbitrage percentage")
+            return True, f"{probability:.2f}% arbitrage percentage"
+
+        else:
+            logging.info(f"No arbitrage opportunity: {probability:.2f}")
+            return True, f"No arbitrage opportunity: {probability:.2f}%"
+            
+
         
 if __name__ == '__main__':
     main()
