@@ -64,104 +64,15 @@ def main():
     # The bot won't stop until the user manually stops it by pressing CTRL+C
 
 
-class MarketsData():
-    # Use querystrings to list the market with various filtering and sorting options
-    querystring = {"active":"true", "closed":"false"}
-    # Create a class that extracts that from active markets
-    def __init__(self, gamma_api_data_url: str):
-        self.gamma_api_data_url = gamma_api_data_url
-    
-    def get_markets(self) -> list[dict[str, list[int]]]:
-        # Export active markets in polymarkets data.
-        response = requests.request("GET", self.gamma_api_data_url, params=self.querystring)
-        response = response.text
-        response_json = json.loads(response)
-
-        # Iterate over the json file and make a list with binary markets with decimal odds
-
-        decoded_markets = []
- 
-        for market in response_json:
-            outcome_prices = market.get("outcomePrices")
-            outcome_prices_str = str(outcome_prices)
-            match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str.strip())
-            
-            if match:
-                logging.debug("Found outcomePrices")
-                outcome_prices = [float(match.group(1)), float(match.group(2))]
-
-
-                id = market.get("id")
-                slug = market.get("slug")
-                decoded_markets.append({"id": id, "outcomePrices": outcome_prices, "slug": slug})
-                logging.info("Append market to decoded_markets")
-            else:
-                logging.debug("Didn't find outcomePrices")
-                pass
-
-        return decoded_markets
-    
-
-    def get_events(self) -> list[dict[str, any]]:
-        response = requests.request("GET", self.gamma_api_data_url, params=self.querystring)
-        response = response.text
-        response_json = json.loads(response)
-
-        decoded_event_markets = []
-
-        for event in response_json:
-            # get the list of multi-markets events of the recent events
-            if len(event["markets"])>= 1:
-                logging.debug("Found an event with at least 1 market")
-
-                event_id = event.get("id")
-                event_slug = event.get("slug")
-                tags = event.get("tags")
-                for tag in tags:
-                    event_tid = tag.get("id")
-
-
-                multi_markets = []
-
-                for market in event.get("markets"):    
-
-                    outcome_prices = market.get("outcomePrices")
-                    outcome_prices_str = str(outcome_prices)
-
-                    # The outcomePrices musst be given as a formatted string of two elements, if not pass
-                    match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str)
-
-
-                    if match:
-                        logging.debug("Found outcomePrices")
-                        outcome_prices = [float(match.group(1)), float(match.group(2))]
-                        
-
-                        market_id = market.get("id")
-                        slug = market.get("slug")
-                        # Make a list of markets inside the events dictionnary
-
-                        multi_markets.append({"id": market_id, "outcomePrices": outcome_prices, "slug": slug})
-                    else: 
-                        logging.debug("Didn't find outcomePrices")
-                        pass
-                decoded_event_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
-            
-            else:
-                logging.debug("Event with no markets")
-                pass
-
-        return decoded_event_markets
-
-            
-                    
 
 class Probabilities():
     """
     Manage the prices from the market's outcomes and determine whether an arbitrage opportunity exists
     """
+
     def __init__(self, outcome_prices: list[int]):
         self.outcome_prices = outcome_prices
+
 
     def count_outcome_prices(self) -> bool:
         """Check that there are only two prices"""
