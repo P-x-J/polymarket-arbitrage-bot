@@ -19,6 +19,3 @@ def set_minimum_price_gap() -> float:
         else:
             return minimum_price_gap
     
-    
-set_minimum_price_gap()
-    

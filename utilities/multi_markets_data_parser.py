@@ -6,7 +6,7 @@ import re
 
 log2 = logging.getLogger(__name__)
 
-class MultiMarketsDataParser():
+class MultiMarketsDataParser:
     querystrings = {
         "active":"true",
         "closed":"false"

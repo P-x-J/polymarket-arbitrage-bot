@@ -6,7 +6,8 @@ import re
 
 log1 = logging.getLogger(__name__)
 
-class MarketsDataParser():
+class MarketsDataParser:
+
     # Use querystrings to list the market with various filtering and sorting options
     querystrings = {
         "active":"true",
