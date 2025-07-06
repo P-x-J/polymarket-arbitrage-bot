@@ -14,10 +14,10 @@ class DecimalOddsSetter:
     def count_outcome_prices(self) -> bool:
         """Check that there are only two prices"""
         if len(self.outcome_prices) == 2:
-            logging.debug("outcome_prices is a two-elements list")
+            log4.debug("outcome_prices is a two-elements list")
             return True
         else:
-            logging.debug("outcome_prices isn't a two-element list")
+            log4.debug("outcome_prices isn't a two-element list")
             return False
 
 
@@ -28,7 +28,7 @@ class DecimalOddsSetter:
         for price in self.outcome_prices:
             decimal_odd_number = 1/float(price)
             decimal_odds_numbers.append(float(decimal_odd_number))
-        logging.info("Returned decimal odd numbers")
+        log4.info("Returned decimal odd numbers")
     
         # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
         return decimal_odds_numbers

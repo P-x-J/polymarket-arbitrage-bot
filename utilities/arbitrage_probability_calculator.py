@@ -8,5 +8,6 @@ class ProbabilityCalculator():
 
     def calculate_probability(self) -> float:
         decimals = [(1/decimal)*100 for decimal in self.outcome_odds_decimals]
+        log5.info(f"Probability: {sum(decimals)}")
         return sum(decimals)
             
