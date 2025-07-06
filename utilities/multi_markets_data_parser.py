@@ -7,19 +7,20 @@ import re
 log2 = logging.getLogger(__name__)
 
 class MultiMarketsDataParser:
+    
     querystrings = {
         "active":"true",
         "closed":"false"
         }
-    def __init__(self, event_gamma_api_url: str):
+    
+    def __init__(self, event_gamma_api_url: str, decoded_events_markets: list):
         self.event_gamma_api_url = event_gamma_api_url
+        self.decoded_events_markets = decoded_events_markets
 
     def get_events(self) -> list[dict[str, any]]:
         response = requests.request("GET", self.event_gamma_api_url, params=self.querystrings)
         response = response.text
         response_json = json.loads(response)
-
-        decoded_event_markets = []
 
         for event in response_json:
             # get the list of multi-markets events of the recent events
@@ -57,10 +58,10 @@ class MultiMarketsDataParser:
                     else: 
                         log2.debug("Didn't find outcomePrices")
                         pass
-                decoded_event_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
+                self.decoded_events_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
             
             else:
                 log2.debug("Event with no markets")
                 pass
 
-        return decoded_event_markets
+        return self.decoded_events_markets
