@@ -7,15 +7,14 @@ import re
 log2 = logging.getLogger(__name__)
 
 class MultiMarketsDataParser:
-    
+
     querystrings = {
         "active":"true",
         "closed":"false"
         }
     
-    def __init__(self, event_gamma_api_url: str, decoded_events_markets: list):
+    def __init__(self, event_gamma_api_url: str):
         self.event_gamma_api_url = event_gamma_api_url
-        self.decoded_events_markets = decoded_events_markets
 
     def get_events(self) -> list[dict[str, any]]:
         response = requests.request("GET", self.event_gamma_api_url, params=self.querystrings)
@@ -33,7 +32,7 @@ class MultiMarketsDataParser:
                 for tag in tags:
                     event_tid = tag.get("id")
 
-
+                decoded_events_markets = []
                 multi_markets = []
 
                 for market in event.get("markets"):    
@@ -43,7 +42,6 @@ class MultiMarketsDataParser:
 
                     # The outcomePrices musst be given as a formatted string of two elements, if not pass
                     match = re.search(r'\[\"([0-9]+\.[0-9]+)\", \"([0-9]+\.[0-9]+)\"\]', outcome_prices_str)
-
 
                     if match:
                         log2.debug("Found outcomePrices")
@@ -58,10 +56,10 @@ class MultiMarketsDataParser:
                     else: 
                         log2.debug("Didn't find outcomePrices")
                         pass
-                self.decoded_events_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
+                decoded_events_markets.append({"id": event_id, "tid": event_tid, "slug": event_slug, "markets": multi_markets})
             
             else:
                 log2.debug("Event with no markets")
                 pass
 
-        return self.decoded_events_markets
+        return decoded_events_markets

@@ -14,9 +14,9 @@ class MarketsDataParser:
         "closed":"false"
         }
     # Create a class that extracts that from active markets
-    def __init__(self, single_markets_gamma_api_url: str, decoded_markets: list):
+    def __init__(self, single_markets_gamma_api_url: str):
         self.single_markets_gamma_api_url = single_markets_gamma_api_url 
-        self.decoded_markets = decoded_markets
+   
     
     def get_markets(self) -> list[dict[str, list[int]]]:
         # Export active markets in polymarkets data.
@@ -24,8 +24,10 @@ class MarketsDataParser:
         response = response.text
         response_json = json.loads(response)
 
+        decoded_markets = []
+
         # Iterate over the json file and make a list with binary markets with decimal odds
- 
+
         for market in response_json:
             outcome_prices = market.get("outcomePrices")
             outcome_prices_str = str(outcome_prices)
@@ -38,10 +40,10 @@ class MarketsDataParser:
 
                 id = market.get("id")
                 slug = market.get("slug")
-                self.decoded_markets.append({"id": id, "outcomePrices": outcome_prices, "slug": slug})
+                decoded_markets.append({"id": id, "outcomePrices": outcome_prices, "slug": slug})
                 log1.info("Append market to decoded_markets")
             else:
                 log1.debug("Didn't find outcomePrices")
                 pass
 
-        return self.decoded_markets
+        return decoded_markets
