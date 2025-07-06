@@ -1,8 +1,9 @@
 import logging
+from decimal_odds_setter import DecimalOddsSetter
 
 log5 = logging.getLogger(__name__)
 
-class ProbabilityCalculator():
+class ProbabilityCalculator(DecimalOddsSetter):
     def __init__(self, outcome_odds_decimals: list[float]):
         self.outcome_odds_decimals = outcome_odds_decimals
 
