@@ -32,3 +32,6 @@ class DecimalOddsSetter:
     
         # Supposed to return a two-elements list as it's a binary market, Test with len(decimal_odds_numbers) = 2
         return decimal_odds_numbers
+    
+    def check_decimal_odds(self) -> bool: 
+        pass

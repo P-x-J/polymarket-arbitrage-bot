@@ -16,3 +16,14 @@ class OutcomePricesChecker:
         else:
             log7.debug("outcome_prices isn't a two-element list")
             return False
+    
+    def check_outcome_prices(self) -> bool:
+        try: 
+            for outcome_price in self.outcome_prices:
+                outcome_price = float(outcome_price)
+                # The decimal number
+        except ValueError:
+            log7.debug("Outcome prices aren't given as float numbers")
+            return False
+        else:
+            return True
