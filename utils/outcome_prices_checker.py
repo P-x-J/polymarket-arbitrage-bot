@@ -4,7 +4,7 @@ log7 = logging.getLogger(__name__)
 
 class OutcomePricesChecker:
 
-    def __init__(self, outcome_prices: list[int]):
+    def __init__(self, outcome_prices: list[float]):
         self.outcome_prices = outcome_prices
 
 

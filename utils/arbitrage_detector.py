@@ -11,7 +11,7 @@ class ArbitrageDetector:
         """Determines whether an arbitrage opportunity exists"""
 
         if self.probability < 100 - self.minimum_price_gap:
-            log6.info(f"{self.probability:.2f}% arbitrage percentage")
+            log6.info(f"Arbitrage opportunity found: {self.probability:.2f}% arbitrage percentage")
             return True
 
         else:
