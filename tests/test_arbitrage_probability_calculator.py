@@ -1,5 +1,5 @@
 import pytest
-from utilities.arbitrage_probability_calculator import ProbabilityCalculator
+from polymarket_utils.arbitrage_probability_calculator import ProbabilityCalculator
 
 def test_calculate_probability():
     # Arbitrage opportunitie

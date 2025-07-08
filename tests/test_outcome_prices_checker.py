@@ -1,4 +1,4 @@
-from utilities.outcome_prices_checker import OutcomePricesChecker
+from polymarket_utils.outcome_prices_checker import OutcomePricesChecker
 import pytest
 
 def test_count_outcome_prices():

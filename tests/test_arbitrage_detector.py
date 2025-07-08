@@ -1,5 +1,5 @@
 import pytest
-from utilities.arbitrage_detector import ArbitrageDetector
+from polymarket_utils.arbitrage_detector import ArbitrageDetector
 
 def test_detect_abitrage_opportunity():
     test1 = ArbitrageDetector(98.499999999, 1.5)
