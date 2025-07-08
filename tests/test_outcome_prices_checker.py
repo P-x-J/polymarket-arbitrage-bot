@@ -9,5 +9,5 @@ def test_check_outcome_prices():
     with pytest.raises(ValueError):
         OutcomePricesChecker.check_outcome_prices(["Hello", 0.12])
 
-    assert OutcomePricesChecker.check_outcome_prices([0.1234, 0.2341])
+    assert OutcomePricesChecker.check_outcome_prices([0.1234, 0.2341]) == True
 
