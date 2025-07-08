@@ -11,16 +11,6 @@ class DecimalOddsSetter:
         self.outcome_prices = outcome_prices
 
 
-    def count_outcome_prices(self) -> bool:
-        """Check that there are only two prices"""
-        if len(self.outcome_prices) == 2:
-            log4.debug("outcome_prices is a two-elements list")
-            return True
-        else:
-            log4.debug("outcome_prices isn't a two-element list")
-            return False
-
-
     def convert_to_decimal(self) -> list[float]:
         """Outputs the decimal odd number of the inputted outcome price"""
         decimal_odds_numbers = []
