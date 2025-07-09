@@ -1,3 +1,12 @@
+import json
+import logging
+import requests
+import re
+import sys
+import time
+
+
+
 from utils.arbitrage_detector import ArbitrageDetector
 from utils.decimal_odds_setter import DecimalOddsSetter
 from utils.get_api import get_api
@@ -7,12 +16,6 @@ from utils.outcome_prices_checker import OutcomePricesChecker
 from utils.arbitrage_probability_calculator import ProbabilityCalculator
 from utils.markets_getter import PolymarketMarketsSetter
 from utils.set_minimum_price_gap import set_minimum_price_gap
-
-import requests
-import re
-import logging
-import json
-import time
 
 
 logger = logging.getLogger(__name__)
