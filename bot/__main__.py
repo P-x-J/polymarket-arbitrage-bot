@@ -1,12 +1,12 @@
-from utils import ArbitrageDetector
-from utils import DecimalOddsSetter
-from utils import get_api
-from utils import MarketsDataParser
-from utils import MultiMarketsDataParser
-from utils import OutcomePricesChecker
-from utils import ProbabilityCalculator
-from utils import PolymarketMarketsSetter
-from utils import set_minimum_price_gap
+from utils.arbitrage_detector import ArbitrageDetector
+from utils.decimal_odds_setter import DecimalOddsSetter
+from utils.get_api import get_api
+from utils.markets_data_parser import MarketsDataParser
+from utils.multi_markets_data_parser import MultiMarketsDataParser
+from utils.outcome_prices_checker import OutcomePricesChecker
+from utils.arbitrage_probability_calculator import ProbabilityCalculator
+from utils.markets_getter import PolymarketMarketsSetter
+from utils.set_minimum_price_gap import set_minimum_price_gap
 
 import requests
 import re
