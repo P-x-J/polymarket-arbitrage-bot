@@ -1,9 +1,8 @@
-# Polymarket's Binary Arbitrage Bot
+# Polymarket's Binary Arbitrage Bot    
 
 
-## Project Status: Under Active Development 🚧
+![images](https://github.com/user-attachments/assets/d0db897d-0f4d-45e7-b25d-06eb83048944)
 
-This project is currently in active development. Until it reaches a more stable release, **expect frequent and potentially breaking updates**. I'm working hard to get things polished, and your feedback is welcome!
 
 ## How does binary arbitrage work?
 
@@ -36,14 +35,10 @@ By querying this API regularly, the bot identifies pricing discrepancies that si
 
 Once an arbitrage signal is detected, the bot logs or alerts the user with actionable information (email,logging file...etc)
 
-## How to get started:
+## How to install:
 
-Istructions will be given later on, sorry for the inconvenience.
-
-## How to contribute:
-
-Contributions are limited while I'm constructing the project's main framework. However, any feedback or ideas are always welcomed.
-
+    pip install polymarket-arbitrage-bot
+    python3 -m bot.main
 
 
 ## Future Updates:
