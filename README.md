@@ -1,4 +1,7 @@
-# Polymarket's Binary Arbitrage Bot    ![images](https://github.com/user-attachments/assets/d0db897d-0f4d-45e7-b25d-06eb83048944)
+# Polymarket's Binary Arbitrage Bot    
+
+
+![images](https://github.com/user-attachments/assets/d0db897d-0f4d-45e7-b25d-06eb83048944)
 
 
 ## How does binary arbitrage work?
