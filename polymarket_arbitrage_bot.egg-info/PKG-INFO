@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: polymarket-arbitrage-bot
+Version: 0.1.0
+Summary: A bot to detect and execute arbitrage opportunities on Polymarket
+Home-page: https://github.com/P-x-J/Polymarket-Arbitrage-Bot
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: web3
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
