@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
 
-from setuptools import setup, find_packages
-
 setup(
     name="polymarket-arbitrage-bot",
     version="0.1.0",
@@ -19,3 +17,4 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
