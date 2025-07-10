@@ -5,10 +5,10 @@ setup(
     version="0.1.0",
     description="A bot to detect and execute arbitrage opportunities on Polymarket",
     url="https://github.com/P-x-J/Polymarket-Arbitrage-Bot",
-    packages=find_packages(where="src"),            # or find_packages() if top-level
-    package_dir={"": "src"},                        # omit if not using src layout
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},                        
     install_requires=[
-        "requests", "web3",  # etc.
+        "requests", "web3", #etc
     ],
     python_requires=">=3.8",
     classifiers=[
